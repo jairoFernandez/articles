@@ -2,10 +2,6 @@
 
 Ahora vamos a ejecutar un container muy simple "hello-world" para verificar que Docker está instalado y funcionando correctamente.
 
-```bash {"id":"01HZ3GNG0J4FEGBVPFC1FQ34E5"}
-docker run hello-world
-```
-
 ```sh {"id":"01HZ3FX1GJ2DN1TM40REMK8CXP"}
 docker run hello-world
 ```
@@ -30,7 +26,3 @@ docker run --rm -it $DOCKER_LOCAL_NAME /bin/bash
 
 unset DOCKER_LOCAL_NAME
 ```
-
-![alt text](<CleanShot 2024-05-29 at 20.17.05.gif>)
-
-![alt text](<CleanShot 2024-05-29 at 20.44.08@2x.png>)
